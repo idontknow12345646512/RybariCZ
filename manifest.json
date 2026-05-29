@@ -1,0 +1,32 @@
+{
+  "name": "Revíry MRS Brno",
+  "short_name": "Revíry",
+  "description": "Průvodce rybářskými revíry MRS Brno – offline, vždy po ruce",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#060c12",
+  "theme_color": "#00c8f0",
+  "lang": "cs",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='96' fill='%230a1e30'/><text y='340' x='80' font-size='320'>🎣</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["sports", "lifestyle"],
+  "shortcuts": [
+    {
+      "name": "Pstruhové revíry",
+      "url": "./index.html?filter=Pstruhový",
+      "description": "Zobrazit pstruhové revíry"
+    },
+    {
+      "name": "Mimopstruhové revíry",
+      "url": "./index.html?filter=Mimopstruhový",
+      "description": "Zobrazit mimopstruhové revíry"
+    }
+  ]
+}
